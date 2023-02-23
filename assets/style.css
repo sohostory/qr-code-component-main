@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  background-color: blue;
+  grid-template-columns: 1fr 1fr;
+}
+
+ul {
+  list-style: none;
+}
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

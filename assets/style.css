@@ -1,9 +1,11 @@
 body {
   background-color: hsl(221, 100%, 96%);
+  font-family: "Hanken Grotesk", sans-serif;
 }
 .container {
   display: flex;
   flex-flow: row wrap;
+  width: 600px;
   padding: 0;
   margin: 0;
   justify-content: center;
@@ -11,21 +13,26 @@ body {
   text-align: center;
   border-radius: 30px;
   background-color: hsl(0, 0%, 100%);
+  margin: auto;
 }
 
 .result,
 .summary {
   width: 300px;
   height: 500px;
-  padding: 15px;
+  padding-top: 15px;
+  font-size: 20px;
 }
 
 .result {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 30px;
+  color: hsl(241, 100%, 89%);
 }
 
 .summary {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
 }
 
 /* Footer */

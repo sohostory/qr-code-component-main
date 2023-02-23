@@ -1,12 +1,33 @@
+body {
+  background-color: hsl(221, 100%, 96%);
+}
 .container {
-  display: grid;
-  background-color: blue;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 100%);
 }
 
-ul {
-  list-style: none;
+.result,
+.summary {
+  width: 300px;
+  height: 500px;
+  padding: 15px;
 }
+
+.result {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 30px;
+}
+
+.summary {
+}
+
 /* Footer */
 .attribution {
   font-size: 11px;
